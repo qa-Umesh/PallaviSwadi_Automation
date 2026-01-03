@@ -1,0 +1,176 @@
+12:49:23.175 [main] INFO  base.BaseTest.setUp - Chrome Broswer opening
+12:49:24.672 [main] INFO  base.BaseTest.setUp - Loading URL
+12:49:27.626 [main] INFO  reusable_methods.LoginHelper.Login - ------------- Login: Pallavi Swadi -------------
+12:49:27.638 [main] INFO  reusable_methods.LoginHelper.Login - Entering Username
+12:49:27.718 [main] INFO  reusable_methods.LoginHelper.Login - Entering Password
+12:49:27.793 [main] INFO  reusable_methods.LoginHelper.Login - clicking on Loging button
+12:49:27.877 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - >>>>>>>>>>>>>>> Verifyed Add New Venfor Functoinality <<<<<<<<<<<<<<
+12:49:27.881 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Navigating to customer Master
+12:49:50.357 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Click on New Customer
+12:49:50.506 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Enter Customer Name
+12:49:50.592 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Enter Customer Email
+12:49:50.697 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Selecting Place of Supply
+12:49:50.848 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Selecting GST Treatment
+12:49:50.956 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Clicking on create button
+12:51:45.124 [main] INFO  base.BaseTest.setUp - Chrome Broswer opening
+12:51:46.592 [main] INFO  base.BaseTest.setUp - Loading URL
+12:51:49.344 [main] INFO  reusable_methods.LoginHelper.Login - ------------- Login: Pallavi Swadi -------------
+12:51:49.361 [main] INFO  reusable_methods.LoginHelper.Login - Entering Username
+12:51:49.448 [main] INFO  reusable_methods.LoginHelper.Login - Entering Password
+12:51:49.516 [main] INFO  reusable_methods.LoginHelper.Login - clicking on Loging button
+12:51:49.598 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - >>>>>>>>>>>>>>> Verifyed Add New Venfor Functoinality <<<<<<<<<<<<<<
+12:51:49.603 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Navigating to customer Master
+12:51:55.418 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Click on New Customer
+12:51:55.557 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Enter Customer Name
+12:51:55.655 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Enter Customer Email
+12:51:55.767 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Selecting Place of Supply
+12:51:55.917 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Selecting GST Treatment
+12:51:56.028 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Clicking on create button
+12:53:58.628 [main] INFO  base.BaseTest.setUp - Chrome Broswer opening
+12:54:00.182 [main] INFO  base.BaseTest.setUp - Loading URL
+12:54:03.040 [main] INFO  reusable_methods.LoginHelper.Login - ------------- Login: Pallavi Swadi -------------
+12:54:03.058 [main] INFO  reusable_methods.LoginHelper.Login - Entering Username
+12:54:03.150 [main] INFO  reusable_methods.LoginHelper.Login - Entering Password
+12:54:03.218 [main] INFO  reusable_methods.LoginHelper.Login - clicking on Loging button
+12:54:03.326 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - >>>>>>>>>>>>>>> Verifyed Add New Venfor Functoinality <<<<<<<<<<<<<<
+12:54:03.330 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Navigating to customer Master
+12:54:08.821 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Click on New Customer
+12:54:08.945 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Enter Customer Name
+12:54:09.041 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Enter Customer Email
+12:54:09.161 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Selecting Place of Supply
+12:54:09.311 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Selecting GST Treatment
+12:54:09.417 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Clicking on create button
+12:56:08.304 [main] INFO  base.BaseTest.setUp - Chrome Broswer opening
+12:56:09.812 [main] INFO  base.BaseTest.setUp - Loading URL
+12:56:14.481 [main] INFO  reusable_methods.LoginHelper.Login - ------------- Login: Pallavi Swadi -------------
+12:56:14.500 [main] INFO  reusable_methods.LoginHelper.Login - Entering Username
+12:56:14.580 [main] INFO  reusable_methods.LoginHelper.Login - Entering Password
+12:56:14.659 [main] INFO  reusable_methods.LoginHelper.Login - clicking on Loging button
+12:56:14.758 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - >>>>>>>>>>>>>>> Verifyed Add New Venfor Functoinality <<<<<<<<<<<<<<
+12:56:14.760 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Navigating to customer Master
+12:56:23.233 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Click on New Customer
+12:56:23.367 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Enter Customer Name
+12:56:23.444 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Enter Customer Email
+12:56:23.534 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Selecting Place of Supply
+12:56:23.708 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Selecting GST Treatment
+12:56:23.815 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Clicking on create button
+12:58:32.303 [main] INFO  base.BaseTest.setUp - Chrome Broswer opening
+12:58:33.764 [main] INFO  base.BaseTest.setUp - Loading URL
+12:58:46.506 [main] INFO  reusable_methods.LoginHelper.Login - ------------- Login: Pallavi Swadi -------------
+12:58:46.525 [main] INFO  reusable_methods.LoginHelper.Login - Entering Username
+12:58:46.618 [main] INFO  reusable_methods.LoginHelper.Login - Entering Password
+12:58:46.718 [main] INFO  reusable_methods.LoginHelper.Login - clicking on Loging button
+12:58:46.829 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - >>>>>>>>>>>>>>> Verifyed Add New Venfor Functoinality <<<<<<<<<<<<<<
+12:58:46.834 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Navigating to customer Master
+12:59:03.267 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Click on New Customer
+12:59:03.407 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Enter Customer Name
+12:59:03.487 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Enter Customer Email
+12:59:03.578 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Selecting Place of Supply
+12:59:03.751 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Selecting GST Treatment
+12:59:03.866 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Clicking on create button
+12:59:52.859 [main] INFO  base.BaseTest.setUp - Chrome Broswer opening
+12:59:54.336 [main] INFO  base.BaseTest.setUp - Loading URL
+12:59:57.022 [main] INFO  reusable_methods.LoginHelper.Login - ------------- Login: Pallavi Swadi -------------
+12:59:57.036 [main] INFO  reusable_methods.LoginHelper.Login - Entering Username
+12:59:57.152 [main] INFO  reusable_methods.LoginHelper.Login - Entering Password
+12:59:57.221 [main] INFO  reusable_methods.LoginHelper.Login - clicking on Loging button
+12:59:57.328 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - >>>>>>>>>>>>>>> Verifyed Add New Venfor Functoinality <<<<<<<<<<<<<<
+12:59:57.331 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Navigating to customer Master
+13:00:02.830 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Click on New Customer
+13:00:02.957 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Enter Customer Name
+13:00:03.040 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Enter Customer Email
+13:00:03.161 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Selecting Place of Supply
+13:00:03.313 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Selecting GST Treatment
+13:00:03.419 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Clicking on create button
+13:00:40.464 [main] INFO  base.BaseTest.setUp - Chrome Broswer opening
+13:00:41.924 [main] INFO  base.BaseTest.setUp - Loading URL
+13:00:45.830 [main] INFO  reusable_methods.LoginHelper.Login - ------------- Login: Pallavi Swadi -------------
+13:00:45.843 [main] INFO  reusable_methods.LoginHelper.Login - Entering Username
+13:00:45.925 [main] INFO  reusable_methods.LoginHelper.Login - Entering Password
+13:00:45.999 [main] INFO  reusable_methods.LoginHelper.Login - clicking on Loging button
+13:00:46.078 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - >>>>>>>>>>>>>>> Verifyed Add New Venfor Functoinality <<<<<<<<<<<<<<
+13:00:46.080 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Navigating to customer Master
+13:00:51.718 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Click on New Customer
+13:00:51.845 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Enter Customer Name
+13:00:51.942 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Enter Customer Email
+13:00:52.057 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Selecting Place of Supply
+13:00:52.206 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Selecting GST Treatment
+13:00:52.316 [main] INFO  com.PS.TestCases.TC_MainMaster_Customer.verify_addCustomer - Clicking on create button
+18:04:55.062 [main] INFO  base.BaseTest.setUp - Chrome Broswer opening
+18:04:56.935 [main] INFO  base.BaseTest.setUp - Loading URL
+18:05:07.274 [main] INFO  reusable_methods.LoginHelper.Login - ------------- Login: Pallavi Swadi -------------
+18:05:07.294 [main] INFO  reusable_methods.LoginHelper.Login - Entering Username
+18:05:07.398 [main] INFO  reusable_methods.LoginHelper.Login - Entering Password
+18:05:07.484 [main] INFO  reusable_methods.LoginHelper.Login - clicking on Loging button
+18:05:07.567 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.Verify_addnewBrand - >>>>>>>>>>> Verify Add New Brand Funcitonaoity <<<<<<<<<<<<<< 
+18:05:07.570 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.Verify_addnewBrand - Clicking to Brand Master
+18:05:16.371 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.Verify_addnewBrand - Clicking on New Brand
+18:05:16.458 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.Verify_addnewBrand - Entering Brand Name
+18:05:16.561 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.Verify_addnewBrand - Uploding Brand Logo
+18:05:16.615 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.Verify_addnewBrand - Clicking on Create Button
+18:05:16.719 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.Verify_addnewBrand - Checking is Brand created 
+18:05:19.802 [main] INFO  base.BaseTest.setUp - Chrome Broswer opening
+18:05:21.045 [main] INFO  base.BaseTest.setUp - Loading URL
+18:05:25.208 [main] INFO  reusable_methods.LoginHelper.Login - ------------- Login: Pallavi Swadi -------------
+18:05:25.209 [main] INFO  reusable_methods.LoginHelper.Login - Entering Username
+18:05:25.297 [main] INFO  reusable_methods.LoginHelper.Login - Entering Password
+18:05:25.395 [main] INFO  reusable_methods.LoginHelper.Login - clicking on Loging button
+18:05:25.495 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.deleteCreatedBrand - Navigating to Brand Master
+18:05:36.254 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.deleteCreatedBrand - Navigate to List of Brand
+18:05:36.337 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.deleteCreatedBrand - Finding recently Added Brand...
+18:05:36.376 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.deleteCreatedBrand - Brand Found
+18:05:36.376 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.deleteCreatedBrand - clicking on Delete button
+18:05:36.455 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.deleteCreatedBrand - Clicking Confirm Delete button..
+18:05:36.676 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.deleteCreatedBrand - Brand Deleted Successfully: Pallavi Swadi
+18:08:19.208 [main] INFO  base.BaseTest.setUp - Chrome Broswer opening
+18:08:22.713 [main] INFO  base.BaseTest.setUp - Loading URL
+18:08:33.237 [main] INFO  reusable_methods.LoginHelper.Login - ------------- Login: Pallavi Swadi -------------
+18:08:33.261 [main] INFO  reusable_methods.LoginHelper.Login - Entering Username
+18:08:33.371 [main] INFO  reusable_methods.LoginHelper.Login - Entering Password
+18:08:33.500 [main] INFO  reusable_methods.LoginHelper.Login - clicking on Loging button
+18:08:33.679 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.Verify_addnewBrand - >>>>>>>>>>> Verify Add New Brand Funcitonaoity <<<<<<<<<<<<<< 
+18:08:33.683 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.Verify_addnewBrand - Clicking to Brand Master
+18:08:45.282 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.Verify_addnewBrand - Clicking on New Brand
+18:08:45.365 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.Verify_addnewBrand - Entering Brand Name
+18:08:45.517 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.Verify_addnewBrand - Uploding Brand Logo
+18:08:45.598 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.Verify_addnewBrand - Clicking on Create Button
+18:08:45.766 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.Verify_addnewBrand - Checking is Brand created 
+18:08:48.838 [main] INFO  base.BaseTest.setUp - Chrome Broswer opening
+18:08:50.678 [main] INFO  base.BaseTest.setUp - Loading URL
+18:08:54.148 [main] INFO  reusable_methods.LoginHelper.Login - ------------- Login: Pallavi Swadi -------------
+18:08:54.151 [main] INFO  reusable_methods.LoginHelper.Login - Entering Username
+18:08:54.259 [main] INFO  reusable_methods.LoginHelper.Login - Entering Password
+18:08:54.389 [main] INFO  reusable_methods.LoginHelper.Login - clicking on Loging button
+18:08:54.491 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.deleteCreatedBrand - Navigating to Brand Master
+18:09:03.347 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.deleteCreatedBrand - Navigate to List of Brand
+18:09:03.436 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.deleteCreatedBrand - Finding recently Added Brand...
+18:09:03.481 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.deleteCreatedBrand - Brand Found
+18:09:03.481 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.deleteCreatedBrand - clicking on Delete button
+18:09:03.565 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.deleteCreatedBrand - Clicking Confirm Delete button..
+18:09:03.844 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.deleteCreatedBrand - Brand Deleted Successfully: Pallavi Swadi
+18:25:00.876 [main] INFO  base.BaseTest.setUp - Chrome Broswer opening
+18:25:02.918 [main] INFO  base.BaseTest.setUp - Loading URL
+18:25:07.450 [main] INFO  reusable_methods.LoginHelper.Login - ------------- Login: Pallavi Swadi -------------
+18:25:07.467 [main] INFO  reusable_methods.LoginHelper.Login - Entering Username
+18:25:07.565 [main] INFO  reusable_methods.LoginHelper.Login - Entering Password
+18:25:07.657 [main] INFO  reusable_methods.LoginHelper.Login - clicking on Loging button
+18:25:07.765 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.Verify_addnewBrand - >>>>>>>>>>> Verify Add New Brand Funcitonaoity <<<<<<<<<<<<<< 
+18:25:07.769 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.Verify_addnewBrand - Clicking to Brand Master
+18:25:16.555 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.Verify_addnewBrand - Clicking on New Brand
+18:25:16.626 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.Verify_addnewBrand - Entering Brand Name
+18:25:16.740 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.Verify_addnewBrand - Uploding Brand Logo
+18:25:16.805 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.Verify_addnewBrand - Clicking on Create Button
+18:25:16.957 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.Verify_addnewBrand - Checking is Brand created 
+18:25:20.123 [main] INFO  base.BaseTest.setUp - Chrome Broswer opening
+18:25:21.771 [main] INFO  base.BaseTest.setUp - Loading URL
+18:25:25.532 [main] INFO  reusable_methods.LoginHelper.Login - ------------- Login: Pallavi Swadi -------------
+18:25:25.533 [main] INFO  reusable_methods.LoginHelper.Login - Entering Username
+18:25:25.622 [main] INFO  reusable_methods.LoginHelper.Login - Entering Password
+18:25:25.720 [main] INFO  reusable_methods.LoginHelper.Login - clicking on Loging button
+18:25:25.819 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.deleteCreatedBrand - Navigating to Brand Master
+18:25:39.270 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.deleteCreatedBrand - Navigate to List of Brand
+18:25:39.361 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.deleteCreatedBrand - Finding recently Added Brand...
+18:25:39.404 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.deleteCreatedBrand - Brand Found
+18:25:39.405 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.deleteCreatedBrand - clicking on Delete button
+18:25:39.580 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.deleteCreatedBrand - Clicking Confirm Delete button..
+18:25:39.832 [main] INFO  com.PS.TestCases.TC_MainMaster_Brand.deleteCreatedBrand - Brand Deleted Successfully: Pallavi Swadi
