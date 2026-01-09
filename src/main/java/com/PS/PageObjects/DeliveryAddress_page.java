@@ -13,7 +13,7 @@ public class DeliveryAddress_page {
 	WaitHelper wait;
 	
 	public DeliveryAddress_page(WebDriver rdriver){
-		this.driver=driver;
+		this.driver=rdriver;
 		PageFactory.initElements(rdriver, this);
 		wait = new WaitHelper(rdriver);
 	

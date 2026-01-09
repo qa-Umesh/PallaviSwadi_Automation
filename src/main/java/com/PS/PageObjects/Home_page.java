@@ -1,5 +1,9 @@
 package com.PS.PageObjects;
 
+
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,11 +15,13 @@ public class Home_page {
 
 	WebDriver driver;
 	WaitHelper wait;
+	public static Logger logger;
 
 	public Home_page(WebDriver rdriver) {
 		this.driver = rdriver;
 		PageFactory.initElements(rdriver, this);
 		wait = new WaitHelper(rdriver);
+		logger=LogManager.getLogger(Home_page.class);
 	}
 
 	// identified WebElements
@@ -61,16 +67,22 @@ public class Home_page {
 
 
 	// Home Dash-board
-	public String getDashboard() {
+	public boolean isDashboarDisplayed() {
+		
 		wait.VisiblityOfElement(homeBTN, 5);
-		return homeBTN.getText();
+		return homeBTN.isDisplayed();
 	}
 
 	/******** Navigate to Brand Master Tab **********/
 	public void navigateToBrandMaster() {
+		logger.info("Clicking on Main Master");
 		wait.VisiblityOfElement(MainMasterDD, 5);
+		
 		MainMasterDD.click();
+		
+		logger.info("Clicking on Brand Master");
 		wait.VisiblityOfElement(BrandMaster, 5);
+		
 		BrandMaster.click();
 	}
 

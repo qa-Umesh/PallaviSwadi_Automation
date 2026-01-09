@@ -27,8 +27,11 @@ public class Excelutils {
 			excelSheet = workBook.getSheet(sheetName);
 			cell= workBook.getSheet(sheetName).getRow(rowNo).getCell(cellNo);
 
-			workBook.close();
-			return cell.getStringCellValue();
+			 DataFormatter formatter = new DataFormatter();
+		        String cellValue = formatter.formatCellValue(cell);
+
+		        workBook.close();
+		        return cellValue;
 
 		} catch (Exception e) {
 			// TODO Auto-generated catch block

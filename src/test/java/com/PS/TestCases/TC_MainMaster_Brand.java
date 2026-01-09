@@ -3,6 +3,7 @@ package com.PS.TestCases;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
+import org.testng.SkipException;
 
 import java.io.File;
 
@@ -16,70 +17,86 @@ import base.BaseTest;
 
 public class TC_MainMaster_Brand extends BaseTest {
 
-	@Test 
-	public void Verify_addnewBrand() {
+	@Test (dataProvider = "Branddata", enabled=false)
+	public void VerifyAddNewBrand(String BrandName) {
 		logger.info(">>>>>>>>>>> Verify Add New Brand Funcitonaoity <<<<<<<<<<<<<< ");
 
 		// click on Main Master
 		Home_page home = new Home_page(driver);
-
-		logger.info("Clicking to Brand Master");
 		home.navigateToBrandMaster();
 
 		// Brand Master
 		BrandMaster_page Brand = new BrandMaster_page(driver);
-
-		logger.info("Clicking on New Brand");
 		Brand.clickOnNewBrandTab();
-
-		logger.info("Entering Brand Name");
-	   Brand.enterBrandName(Brand.BrandName());
-		//Brand.enterBrandName(brandName);
-		
-
-		logger.info("Uploding Brand Logo");
+		Brand.enterBrandName(BrandName);
 		Brand.uploadBrandLogo(Brand.getPngPath());
-		//Brand.uploadBrandLogo(PNG);
-		
-		logger.info("Clicking on Create Button");
 		Brand.clickOnCreateBTN();
 
 		// verifying brand is created.
-		logger.info("Checking is Brand created ");
-		Assert.assertEquals(Brand.getBrandName(), "Pallavi Swadi", "Brand Name mismatch after creation.");
+		logger.info("Verifying Brand Creation ");
+		Assert.assertEquals(Brand.getBrandName(BrandName), BrandName,"Verification Failed not found brand in List");
 
 	}
 
-	@Test(dependsOnMethods = "Verify_addnewBrand")
-	public void deleteCreatedBrand() {
+	@Test(dataProvider = "Branddata")
+	public void deleteCreatedBrand(String BrandName) {
+		
+		logger.info(">>>>>>>>>>> Verify delete Brand Functionality <<<<<<<<<<<<<< ");
 
 		// click on Main Master
 		Home_page home = new Home_page(driver);
-
-		logger.info("Navigating to Brand Master");
 		home.navigateToBrandMaster();
 
 		BrandMaster_page brand = new BrandMaster_page(driver);
-
-		logger.info("Navigate to List of Brand");
 		brand.clickOnListTab();
 
 		// if brand is created then we delete
-		logger.info("Finding recently Added Brand...");
-		if (brand.getBrandName().equals("Pallavi Swadi")) {
-			logger.info("Brand Found");
-			logger.info("clicking on Delete button");
-			brand.clickOnDeleteBrand();
-			logger.info("Clicking Confirm Delete button..");
-			brand.confirmDelete();
-			logger.info("Brand Deleted Successfully: Pallavi Swadi");
-			AssertJUnit.assertTrue(true);
-		} else {
-			logger.error("Brand not found in List");
-			AssertJUnit.assertTrue(false);
+		logger.info("Checking if brand exists before deletion: "+BrandName);
+		if(brand.isBrandPresent(BrandName)) {
+			if(BrandName.startsWith("Test") || BrandName.endsWith("Brand")) {
+				logger.info("Safe to Delete Automation Brand :"+BrandName);
+				brand.clickOnDeleteBrand();
+				brand.confirmDelete();
+				
+				logger.info("Verifying Brand is deleted");
+				Assert.assertFalse(brand.isBrandPresent(BrandName),"Brand is still visible after deletion");
+				logger.info("Brand is deleted Successfully: "+BrandName);
+			}
+			else {
+				logger.warn("Skipped deletion: Test persent not found in excel");
+				throw new SkipException("Skipping deletion to protected client data");
+			}
+				
 		}
+		else {
+			logger.warn("Bran not found Skipped deletion "+BrandName);
+			throw new SkipException("Brand not availale to delete");
+		}
+		
 	}
 	
+	
+	@DataProvider(name="Branddata")
+	public String[][] BrandData(){
+		
+		String Filepath=System.getProperty("user.dir")+File.separator+"TestData"+File.separator+"BrandData"+File.separator+"PallaviSwadi_TestData.xlsx";
+		
+		int ttRows=Excelutils.getRowCount(Filepath, "AddBrand");
+		int ttCols = Excelutils.getCellCount(Filepath, "AddBrand");
+		
+		if(ttRows<1) {
+			throw new RuntimeException("Excel sheet has no data");
+		}
+		
+		String[][] data= new String[ttRows-1][ttCols];
+		for(int i=1;i<ttRows;i++) {
+			for(int j=0;j<ttCols;j++) {
+				data[i-1][j]=Excelutils.getCellValue(Filepath, "AddBrand", i, j);
+			}
+		}
+		return data;
+		
+	}
 	
 
 

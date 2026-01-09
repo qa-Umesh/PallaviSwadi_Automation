@@ -1,0 +1,60 @@
+12:29:15.963 [main] INFO  base.BaseTest.setUp - Chrome Broswer opening
+12:29:17.380 [main] INFO  base.BaseTest.setUp - Loading URL
+12:29:20.366 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Executing Login Test Case With 'Invalid Username' | Username: 'test' | Password: '*****'
+12:29:20.530 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Clicking on Login button
+12:29:21.208 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Invalid Username login test completed.
+12:29:23.362 [main] INFO  base.BaseTest.setUp - Chrome Broswer opening
+12:29:24.464 [main] INFO  base.BaseTest.setUp - Loading URL
+12:29:27.417 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Executing Login Test Case With 'Invalid password' | Username: 'admin' | Password: '*****'
+12:29:27.561 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Clicking on Login button
+12:29:28.201 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Invalid password login test completed.
+12:29:30.337 [main] INFO  base.BaseTest.setUp - Chrome Broswer opening
+12:29:31.418 [main] INFO  base.BaseTest.setUp - Loading URL
+12:29:41.026 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Executing Login Test Case With 'Valid User Name and password' | Username: 'admin' | Password: '*****'
+12:29:41.172 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Clicking on Login button
+12:29:47.995 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Valid User Name and password login test completed.
+12:31:27.202 [main] INFO  base.BaseTest.setUp - Chrome Broswer opening
+12:31:28.954 [main] INFO  base.BaseTest.setUp - Loading URL
+12:31:31.945 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Executing Login Test Case With 'Invalid Username' | Username: 'test' | Password: '*****'
+12:31:32.115 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Clicking on Login button
+12:31:32.786 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Invalid Username login test completed.
+12:31:34.957 [main] INFO  base.BaseTest.setUp - Chrome Broswer opening
+12:31:36.062 [main] INFO  base.BaseTest.setUp - Loading URL
+12:31:39.432 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Executing Login Test Case With 'Invalid password' | Username: 'admin' | Password: '*****'
+12:31:39.582 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Clicking on Login button
+12:31:40.226 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Invalid password login test completed.
+12:31:42.375 [main] INFO  base.BaseTest.setUp - Chrome Broswer opening
+12:31:43.453 [main] INFO  base.BaseTest.setUp - Loading URL
+12:31:46.073 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Executing Login Test Case With 'Valid credentials' | Username: 'admin' | Password: '*****'
+12:31:46.227 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Clicking on Login button
+12:31:51.135 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Valid credentials login test completed.
+12:40:18.317 [main] INFO  base.BaseTest.setUp - Chrome Broswer opening
+12:40:19.987 [main] INFO  base.BaseTest.setUp - Loading URL
+12:40:31.777 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Executing Login Test Case With 'Invalid Username' | Username: 'test' | Password: '*****'
+12:40:31.946 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Clicking on Login button
+12:40:32.604 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Invalid Username login test completed.
+12:40:34.767 [main] INFO  base.BaseTest.setUp - Chrome Broswer opening
+12:40:35.885 [main] INFO  base.BaseTest.setUp - Loading URL
+12:40:38.719 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Executing Login Test Case With 'Invalid password' | Username: 'admin' | Password: '*****'
+12:40:38.865 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Clicking on Login button
+12:40:39.510 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Invalid password login test completed.
+12:40:41.656 [main] INFO  base.BaseTest.setUp - Chrome Broswer opening
+12:40:42.759 [main] INFO  base.BaseTest.setUp - Loading URL
+12:40:46.608 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Executing Login Test Case With 'Valid credentials' | Username: 'admin' | Password: '*****'
+12:40:46.764 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Clicking on Login button
+12:40:51.905 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Valid credentials login test completed.
+12:43:29.304 [main] INFO  base.BaseTest.setUp - Chrome Broswer opening
+12:43:30.948 [main] INFO  base.BaseTest.setUp - Loading URL
+12:43:34.824 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Executing Login Test Case With 'Invalid Username' | Username: 'test' | Password: '*****'
+12:43:35.014 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Clicking on Login button
+12:43:35.668 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Invalid Username login test completed.
+12:43:37.822 [main] INFO  base.BaseTest.setUp - Chrome Broswer opening
+12:43:38.937 [main] INFO  base.BaseTest.setUp - Loading URL
+12:43:41.832 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Executing Login Test Case With 'Invalid password' | Username: 'admin' | Password: '*****'
+12:43:41.980 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Clicking on Login button
+12:43:42.617 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Invalid password login test completed.
+12:43:44.761 [main] INFO  base.BaseTest.setUp - Chrome Broswer opening
+12:43:45.866 [main] INFO  base.BaseTest.setUp - Loading URL
+12:43:48.639 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Executing Login Test Case With 'Valid credentials' | Username: 'admin' | Password: '*****'
+12:43:48.797 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Clicking on Login button
+12:43:53.064 [main] INFO  com.PS.TestCases.TC_Login.VerifyLoginFunctionality - Valid credentials login test completed.

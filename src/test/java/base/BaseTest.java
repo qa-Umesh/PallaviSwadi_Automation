@@ -1,7 +1,5 @@
 package base;
 
-import java.time.Duration;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -12,8 +10,11 @@ import org.testng.annotations.BeforeMethod;
 
 import com.PS.Utilities.Read_config;
 import com.PS.Utilities.WaitHelper;
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.reporter.ExtentReporter;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import listneres.ListenerClass;
 import reusable_methods.LoginHelper;
 
 public class BaseTest {
@@ -26,6 +27,7 @@ public class BaseTest {
 	
 	public static WebDriver driver;
 	public static Logger logger = LogManager.getLogger(BaseTest.class);
+	
 	
 	WaitHelper wait = new WaitHelper(driver);
 
@@ -59,13 +61,14 @@ public class BaseTest {
 		LoginHelper loginHelper = new LoginHelper(driver, logger);
 		loginHelper.Login();
 
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		
 
 	}
 	
 	
 
-	@AfterMethod
+	@AfterMethod(alwaysRun = true)
 	public void quite() throws InterruptedException {
 		Thread.sleep(2000);
 		driver.quit();
